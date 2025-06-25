@@ -11,7 +11,7 @@ import org.sandeep.F1_CreationalPatterns.AbstractFactory.University.University;
  */
 
 // Client
-public class AbstractFactoryMain {
+public class AbstractFactoryClient {
     public static void main(String[] args) {
         UniversityLeagueFactory universityLeagueFactory = new UniversityLeagueFactory();
         UniversityFactory ivyUniversityFactory = universityLeagueFactory.getUniversityFactory(200);

@@ -16,13 +16,4 @@ public class IvyLeagueUniversityFactory implements UniversityFactory {
             default -> null;
         };
     }
-//    @Override
-//    public String getAdmitCard(String course) {
-//        return university.getAdmitCard();
-//    }
-//
-//    @Override
-//    public int calculateFee(String course) {
-//        return university.getFee();
-//    }
 }
